@@ -1,1 +1,15 @@
-﻿
+﻿using System;
+ 
+class program
+{
+    static void Main()
+    {
+        Console.WriteLine("enter the first number: ");
+        int x = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("enter the second number: ");
+        int y = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("is the first number greater then the second number? ");
+
+        Console.WriteLine(x > y);
